@@ -6,6 +6,10 @@ data:
       repos:
       - DaleWYZ/deployjx-1219
       require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
+      - DaleWYZ/golang-1219
+      require_self_approval: true
     cat: {}
     cherry_pick_unapproved: {}
     config_updater:
@@ -21,12 +25,31 @@ data:
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
+      DaleWYZ/golang-1219:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
     label:
       additional_labels: null
     owners: {}
     plugins:
       DaleWYZ/deployjx-1219:
       - config-updater
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      DaleWYZ/golang-1219:
       - approve
       - assign
       - help
@@ -52,6 +75,11 @@ data:
     - repos:
       - DaleWYZ/deployjx-1219
       trusted_org: DaleWYZ
+    - repos:
+      - DaleWYZ/golang-1219
+      trusted_org: DaleWYZ
+    welcome:
+    - message_template: Welcome
 kind: ConfigMap
 metadata:
   creationTimestamp: null

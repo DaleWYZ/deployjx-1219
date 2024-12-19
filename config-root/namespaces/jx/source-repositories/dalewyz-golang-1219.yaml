@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: DaleWYZ
+    provider: github
+    repository: golang-1219
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: dalewyz-golang-1219
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/DaleWYZ/golang-1219.git
+  org: DaleWYZ
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golang-1219
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/DaleWYZ/golang-1219
