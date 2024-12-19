@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: golang-1219
+    - name: golangtest11
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
