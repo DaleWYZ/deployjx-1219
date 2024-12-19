@@ -1,0 +1,22 @@
+apiVersion: jenkins.io/v1
+kind: SourceRepository
+metadata:
+  creationTimestamp: null
+  labels:
+    owner: DaleWYZ
+    provider: github
+    repository: golangtest11
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  name: dalewyz-golangtest11
+  namespace: jx
+spec:
+  httpCloneURL: https://github.com/DaleWYZ/golangtest11.git
+  org: DaleWYZ
+  provider: https://github.com
+  providerKind: github
+  providerName: github
+  repo: golangtest11
+  scheduler:
+    kind: ""
+    name: in-repo
+  url: https://github.com/DaleWYZ/golangtest11
