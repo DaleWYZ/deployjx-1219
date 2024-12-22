@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: golang-1219
     - name: golangtest11
+    - name: jx-deploy-test-1221
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
