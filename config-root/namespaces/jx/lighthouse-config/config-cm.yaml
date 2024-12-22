@@ -8,6 +8,7 @@ data:
     in_repo_config:
       enabled:
         DaleWYZ/deployjx-1219: true
+        DaleWYZ/go-http-1222: true
         DaleWYZ/golang-1219: true
         DaleWYZ/golangtest11: true
         DaleWYZ/jx-deploy-test-1221: true
@@ -23,6 +24,7 @@ data:
         skip-unknown-contexts: false
       merge_method:
         DaleWYZ/deployjx-1219: merge
+        DaleWYZ/go-http-1222: merge
         DaleWYZ/golang-1219: merge
         DaleWYZ/golangtest11: merge
         DaleWYZ/jx-deploy-test-1221: merge
@@ -37,6 +39,7 @@ data:
         - needs-rebase
         repos:
         - DaleWYZ/deployjx-1219
+        - DaleWYZ/go-http-1222
         - DaleWYZ/golang-1219
         - DaleWYZ/golangtest11
         - DaleWYZ/jx-deploy-test-1221
@@ -50,6 +53,7 @@ data:
         - needs-rebase
         repos:
         - DaleWYZ/deployjx-1219
+        - DaleWYZ/go-http-1222
         - DaleWYZ/golang-1219
         - DaleWYZ/golangtest11
         - DaleWYZ/jx-deploy-test-1221
