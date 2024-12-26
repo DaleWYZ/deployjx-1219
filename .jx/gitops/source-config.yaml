@@ -9,6 +9,7 @@ spec:
     providerKind: github
     repositories:
     - name: go-http-1222
+    - name: go-http-jx-1226
     - name: golang-1219
     - name: golangtest11
     - name: jx-deploy-test-1221
