@@ -10,6 +10,7 @@ data:
         DaleWYZ/deployjx-1219: true
         DaleWYZ/go-http-1222: true
         DaleWYZ/go-http-jx-1226: true
+        DaleWYZ/go-http-new-1226: true
         DaleWYZ/golang-1219: true
         DaleWYZ/golangtest11: true
         DaleWYZ/jx-deploy-test-1221: true
@@ -27,6 +28,7 @@ data:
         DaleWYZ/deployjx-1219: merge
         DaleWYZ/go-http-1222: merge
         DaleWYZ/go-http-jx-1226: merge
+        DaleWYZ/go-http-new-1226: merge
         DaleWYZ/golang-1219: merge
         DaleWYZ/golangtest11: merge
         DaleWYZ/jx-deploy-test-1221: merge
@@ -43,6 +45,7 @@ data:
         - DaleWYZ/deployjx-1219
         - DaleWYZ/go-http-1222
         - DaleWYZ/go-http-jx-1226
+        - DaleWYZ/go-http-new-1226
         - DaleWYZ/golang-1219
         - DaleWYZ/golangtest11
         - DaleWYZ/jx-deploy-test-1221
@@ -58,6 +61,7 @@ data:
         - DaleWYZ/deployjx-1219
         - DaleWYZ/go-http-1222
         - DaleWYZ/go-http-jx-1226
+        - DaleWYZ/go-http-new-1226
         - DaleWYZ/golang-1219
         - DaleWYZ/golangtest11
         - DaleWYZ/jx-deploy-test-1221
