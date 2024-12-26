@@ -16,6 +16,10 @@ data:
       require_self_approval: true
     - lgtm_acts_as_approve: true
       repos:
+      - DaleWYZ/go-http-new-1226
+      require_self_approval: true
+    - lgtm_acts_as_approve: true
+      repos:
       - DaleWYZ/golang-1219
       require_self_approval: true
     - lgtm_acts_as_approve: true
@@ -47,6 +51,11 @@ data:
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
         name: lighthouse-webui-plugin
       DaleWYZ/go-http-jx-1226:
+      - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
+        name: cd-indicators
+      - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
+        name: lighthouse-webui-plugin
+      DaleWYZ/go-http-new-1226:
       - endpoint: http://cd-indicators.jx.svc.cluster.local/lighthouse/events
         name: cd-indicators
       - endpoint: http://lighthouse-webui-plugin.jx.svc.cluster.local/lighthouse/events
@@ -100,6 +109,20 @@ data:
       - dog
       - pony
       DaleWYZ/go-http-jx-1226:
+      - approve
+      - assign
+      - help
+      - hold
+      - lgtm
+      - lifecycle
+      - override
+      - size
+      - trigger
+      - wip
+      - cat
+      - dog
+      - pony
+      DaleWYZ/go-http-new-1226:
       - approve
       - assign
       - help
@@ -172,6 +195,9 @@ data:
       trusted_org: DaleWYZ
     - repos:
       - DaleWYZ/go-http-jx-1226
+      trusted_org: DaleWYZ
+    - repos:
+      - DaleWYZ/go-http-new-1226
       trusted_org: DaleWYZ
     - repos:
       - DaleWYZ/golang-1219
