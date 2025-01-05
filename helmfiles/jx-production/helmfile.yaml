@@ -1,0 +1,11 @@
+filepath: ""
+namespace: jx-production
+repositories:
+- name: dev
+  url: http://bucketrepo.jx.svc.prd.sea/bucketrepo/charts
+releases:
+- chart: dev/timelogger
+  version: 1.0.19
+  name: timelogger
+templates: {}
+renderedvalues: {}
